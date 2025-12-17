@@ -1,6 +1,6 @@
 import  React from 'react';
 
-const features = [
+export const featuresData = [
   {
     title: 'Secure sharing',
     description: 'Encrypted links and access control so only intended users can download files.'
@@ -15,4 +15,21 @@ const features = [
   }
 ];
 
-export default features;
+
+export const pricingplans=[
+  {
+    title:"Basic",
+    cost:"Free"
+  },
+  {
+    title:"Pro",
+    cost:"$10"
+  },
+  {
+    title:"Enterprise",
+    cost:"$500"
+  }
+
+]
+
+export default {featuresData,pricingplans};

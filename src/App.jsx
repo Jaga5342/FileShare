@@ -6,7 +6,7 @@ import Transactions from "./Pages/Transactions";
 import MyFiles from "./Pages/MyFiles";
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 import React, { useState } from 'react';
-import featuresData from './data';
+import featuresData from './assets/data';
 import Features from './Components/Landing/Features';
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
 
         </Routes>
       </BrowserRouter>
-      <Features features={features} />
+      
     </div>
   );
 };

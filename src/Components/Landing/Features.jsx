@@ -12,21 +12,21 @@ const Features = ({features}) => {
                File Share provides all the tools you need to manage the digital content
             </p>
          </div>
-         <div className="mt-16">
+         <div className="mt-24">
              <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {features.map((feature,index) =>
                 (
                    <div key={index} className="pt-5 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 bg-white">
                     <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                       <div className="mt-6">
-                         <div className="inline-flex items-center justify-center p-3 bg-white rouded-md shadow-lg ">
-                            <Wallet />
+                         <div className="inline-flex items-center justify-center p-3 bg-white rounded-md shadow-lg">
+                            
 
                          </div>
                          <h3 className="mt-5 text-lg font-medium text-gray-900 tracking-tight">
                            {feature.title}
          
-                         </h3>
+                          </h3>
                          <p className="mt-2 text-base text-gray-500">
                           {feature.description}
                          </p>

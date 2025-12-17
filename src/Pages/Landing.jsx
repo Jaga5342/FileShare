@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import HeroSection from '../Components/Landing/HeroSection'
 import Testimonials from '../Components/Landing/Testimonials'
 import Features from '../Components/Landing/Features'
 import CTA from '../Components/Landing/CTA';
 import Pricing from '../Components/Landing/Pricing';
 import Footer from '../Components/Landing/Footer';
-import { features } from '../assets/data';
+import {featuresData, pricingplans} from '../assets/data';
 
 const Landing = () => {
   return (
@@ -14,10 +14,10 @@ const Landing = () => {
     <HeroSection />
 
     {/* Features */}
-    <Features features={features} />
+    <Features features={featuresData} />
 
     {/* Pricing */}
-    <Pricing />
+    <Pricing pricingplan={pricingplans}/>
 
     {/* Testimonials */}
     <Testimonials />
